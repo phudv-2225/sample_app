@@ -1,0 +1,32 @@
+vi:
+  static_pages:
+    home:
+      home_title: Ứng dụng Sample
+      home_content:
+        p1: Đây là trang chủ cho ứng dụng sample của
+        a1: hướng dẫn học Ruby on Rails
+        p2: " ."
+    help:
+      help_title: Trợ giúp
+      help_content:
+        p1: Nhận trợ giúp về hướng dẫn học Ruby on Rails tại
+        a1: trang trợ giúp hướng dẫn của Rails.
+        p2: Để nhận trợ giúp về ứng dụng sample này, hãy xem cuốn sách
+        a2: hướng dẫn về Ruby on Rails
+        a3: ""
+    about:
+      about_title: Thông tin
+      about_content:
+        p1: Phần hướng dẫn của
+        a1: Ruby on Rails
+        p2: trong nhóm hướng dẫn
+        a2: đầy đủ,
+        p3: là một
+        a3: bộ sách
+        p4: và
+        a4: loạt ảnh chụp màn hình
+        p5: để dạy phát triển web với
+        a5: Ruby on Rails.
+        p6: Đây là ứng dụng sample cho hướng dẫn.
+  english: Tiếng Anh
+  vietnam: Tiếng Việt
