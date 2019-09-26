@@ -1,0 +1,11 @@
+<% provide :title do %>
+  <%= t ".home_title" %>
+<% end %>
+<h1><%= t ".home_title" %></h1>
+<p>
+  <%= t ".home_content.p1" %>
+  <%= link_to Settings.rails_tutorial.home do %>
+    <%= t ".home_content.a1" %>
+  <% end %>
+  <%= t ".home_content.p2" %>
+</p>
