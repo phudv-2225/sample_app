@@ -1,4 +1,7 @@
 vi:
+  layouts:
+    application:
+      base_title: Ứng dụng Sample cho hướng dẫn học Ruby on Rails
   static_pages:
     home:
       home_title: Ứng dụng Sample
