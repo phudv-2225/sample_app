@@ -1,0 +1,31 @@
+<footer class="footer">
+  <small>
+    <%= t ".footer_content.p1" %>
+    <%= link_to Settings.rails_tutorial.home do %>
+      <%= t ".footer_content.a1" %>
+    <% end %>
+    <%= t ".footer_content.p2" %>
+    <%= link_to Settings.rails_tutorial.michael_hartl do %>
+      <%= t ".footer_content.a2" %>
+    <% end %>
+  </small>
+  <nav>
+    <ul>
+      <li>
+        <%= link_to about_path do %>
+          <%= t "static_pages.about.about_title" %>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to contact_path do %>
+          <%= t "static_pages.contact.contact_title" %>
+        <% end %>
+      </li>
+      <li>
+        <%= link_to Settings.rails_tutorial.new do %>
+          <%= t ".new" %>
+        <% end %>
+      </li>
+    </ul>
+  </nav>
+</footer>

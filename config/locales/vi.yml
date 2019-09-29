@@ -2,13 +2,24 @@ vi:
   layouts:
     application:
       base_title: Ứng dụng Sample cho hướng dẫn học Ruby on Rails
+    header:
+      name: Ứng dụng Sample
+      login: Đăng nhập
+    footer:
+      footer_content:
+        p1: Phần hướng dẫn của
+        a1: Ruby on Rails
+        p2: bởi
+        a2: Michael Hartl
+      new: Tin tức
   static_pages:
     home:
-      home_title: Ứng dụng Sample
+      home_title: Trang chủ
       home_content:
         p1: Đây là trang chủ cho ứng dụng sample của
         a1: hướng dẫn học Ruby on Rails
         p2: " ."
+      sign_up: Đăng kí ngay !!!
     help:
       help_title: Trợ giúp
       help_content:
@@ -31,5 +42,14 @@ vi:
         p5: để dạy phát triển web với
         a5: Ruby on Rails.
         p6: Đây là ứng dụng sample cho hướng dẫn.
+    contact:
+      contact_title: Liên hệ
+      contact_content:
+        p1: Liên hệ với hướng dẫn Ruby on Rails về ứng dụng Sample tại
+        a1: trang liên hệ
+  users:
+    new:
+      sign_up_title: Đăng kí
+      sign_up_content: Đây là trang đăng kí cho người dùng mới.
   english: Tiếng Anh
   vietnam: Tiếng Việt

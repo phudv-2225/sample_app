@@ -2,6 +2,11 @@ rails_tutorial:
   home: "https://www.railstutorial.org/"
   help: "https://www.railstutorial.org/help"
   book: "https://www.railstutorial.org/book"
+  contact: "https://www.railstutorial.org/contact"
+  new: "http://news.railstutorial.org/"
   screencasts: "https://screencasts.railstutorial.org/"
+  michael_hartl: "http://www.michaelhartl.com/"
 learn_enough: "https://www.learnenough.com/"
+image:
+  rails: rails.png
 
