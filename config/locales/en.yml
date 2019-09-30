@@ -2,13 +2,24 @@ en:
   layouts:
     application:
       base_title: Ruby on Rails Tutorial Sample App
+    header:
+      name: Sample App
+      login: Login
+    footer:
+      footer_content:
+        p1: The
+        a1: Ruby on Rails Tutorial
+        p2: by
+        a2: Michael Hartl
+      new: New
   static_pages:
     home:
-      home_title: Sample App
+      home_title: Home
       home_content:
         p1: This is the home page for the
         a1: Ruby on Rails Tutorial
         p2: sample application.
+      sign_up: Sign up now !!!
     help:
       help_title: Help
       help_content:
@@ -31,5 +42,14 @@ en:
         p5: to teach web development with
         a5: Ruby on Rails.
         p6: This is the sample app for the tutorial.
+    contact:
+      contact_title: Contact
+      contact_content:
+        p1: Contact the Ruby on Rails Tutorial about the sample app at the
+        a1: contact page
+  users:
+    new:
+      sign_up_title: Sign Up
+      sign_up_content: This will be a signup page for new users.
   english: English
   vietnam: Vietnamese
