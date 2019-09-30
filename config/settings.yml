@@ -9,4 +9,12 @@ rails_tutorial:
 learn_enough: "https://www.learnenough.com/"
 image:
   rails: rails.png
+user:
+  names:
+    max_length: 50
+  email:
+    max_length: 250
+    regex_valid: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  password:
+    min_length: 6
 
