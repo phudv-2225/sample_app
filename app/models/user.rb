@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   before_save :downcase_email
+  USER_PARAMS = %i(name email password password_confirmation).freeze
 
   validates :name,
     presence: true,

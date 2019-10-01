@@ -51,5 +51,16 @@ vi:
     new:
       sign_up_title: Đăng kí
       sign_up_content: Đây là trang đăng kí cho người dùng mới.
+      name: Tên đăng nhập
+      email: Địa chỉ Email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      button_submit: Tạo tài khoản
+    create:
+      signup_success: Chào mừng tới ứng dụng Sample!
+  shared:
+    error_messages:
+      head: Biểu mẫu chứa
+      error: lỗi
   english: Tiếng Anh
   vietnam: Tiếng Việt
