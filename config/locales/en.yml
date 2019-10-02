@@ -51,5 +51,16 @@ en:
     new:
       sign_up_title: Sign Up
       sign_up_content: This will be a signup page for new users.
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password Confirmation
+      button_submit: Create my account
+    create:
+      signup_success: Welcome to the Sample App!
+  shared:
+    error_messages:
+      head: The form contains
+      error: error
   english: English
   vietnam: Vietnamese

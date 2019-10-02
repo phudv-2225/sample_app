@@ -17,4 +17,6 @@ user:
     regex_valid: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password:
     min_length: 6
-
+  gravatar:
+    size: 80
+    url: "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
