@@ -5,6 +5,12 @@ en:
     header:
       name: Sample App
       login: Login
+      user: Users
+      account: Account
+      profile: Profile
+      setting: Seting
+      log_out: Log Out
+      language: Language
     footer:
       footer_content:
         p1: The
@@ -12,6 +18,16 @@ en:
         p2: by
         a2: Michael Hartl
       new: New
+  sessions:
+    new:
+      new_title: Log In
+      email: Email
+      password: Password
+      sign_up_content: New user?
+      sign_up_title: Sign up now!
+    create:
+      login_fail: Invalid email/password combination
+      login_many: An error has occurred. Please try closing and reopening the browser window.
   static_pages:
     home:
       home_title: Home
@@ -58,6 +74,10 @@ en:
       button_submit: Create my account
     create:
       signup_success: Welcome to the Sample App!
+      login_many: An error has occurred. Please try closing and reopening the browser window.
+    show:
+      error: Error - Not found user
+      home: Please return to the homepage.
   shared:
     error_messages:
       head: The form contains

@@ -1,9 +1,7 @@
 class UsersController < ApplicationController
   before_action :current_user
 
-  def show
-    @user = current_user
-  end
+  def show; end
 
   def new
     @user = User.new
@@ -27,6 +25,10 @@ class UsersController < ApplicationController
   end
 
   def current_user
-    User.find_by id: params[:id]
+    @user = User.find_by id: params[:id]
+
+    return if @user
+    flash[:danger]  = t ".error"
+    redirect_to root_url
   end
 end

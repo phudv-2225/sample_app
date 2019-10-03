@@ -5,6 +5,12 @@ vi:
     header:
       name: Ứng dụng Sample
       login: Đăng nhập
+      user: Người dùng
+      account: Tài khoản
+      profile: Hồ sơ cá nhân
+      setting: Cài đặt
+      log_out: Đăng xuất
+      language: Ngôn ngữ
     footer:
       footer_content:
         p1: Phần hướng dẫn của
@@ -12,6 +18,16 @@ vi:
         p2: bởi
         a2: Michael Hartl
       new: Tin tức
+  sessions:
+    new:
+      new_title: Đăng nhập
+      email: Địa chỉ email
+      password: Mật khẩu
+      sign_up_content: Bạn chưa có tài khoản?
+      sign_up_title: Đăng kí ngay!
+    create:
+      login_fail: Địa chỉ email hoặc mật khẩu không chính xác
+      login_many: Đã có lỗi xảy ra. Vui lòng thử đóng và mở lại cửa sổ trình duyệt.
   static_pages:
     home:
       home_title: Trang chủ
@@ -58,6 +74,10 @@ vi:
       button_submit: Tạo tài khoản
     create:
       signup_success: Chào mừng tới ứng dụng Sample!
+      login_many: Đã có lỗi xảy ra. Vui lòng thử đóng và mở lại cửa sổ trình duyệt.
+    show:
+      error: Lỗi - Không tìm thấy người dùng
+      home: Vui lòng qua lại trang chủ.
   shared:
     error_messages:
       head: Biểu mẫu chứa
