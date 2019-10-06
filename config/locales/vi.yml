@@ -25,6 +25,7 @@ vi:
       password: Mật khẩu
       sign_up_content: Bạn chưa có tài khoản?
       sign_up_title: Đăng kí ngay!
+      check_box: Nhớ tôi trên máy tính này
     create:
       login_fail: Địa chỉ email hoặc mật khẩu không chính xác
       login_many: Đã có lỗi xảy ra. Vui lòng thử đóng và mở lại cửa sổ trình duyệt.

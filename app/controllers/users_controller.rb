@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_action :current_user
+  before_action :current_user, only: %i(show)
 
   def show; end
 

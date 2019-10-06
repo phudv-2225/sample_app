@@ -20,3 +20,5 @@ user:
   gravatar:
     size: 80
     url: "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
+session:
+  check_box: "1"
