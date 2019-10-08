@@ -1,0 +1,9 @@
+<% provide :title, t(".index_title") %>
+<h1><%= t ".index_title" %></h1>
+<p><%= t ".count_record" %><b><%= @users.count %></b></p>
+
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<%= paginate @users, theme: Settings.paginate.theme %>

@@ -20,5 +20,9 @@ user:
   gravatar:
     size: 80
     url: "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
+    edit: "http://gravatar.com/emails"
+paginate:
+  record_per_page: 5
+  theme: "twitter-bootstrap-3"
 session:
   check_box: "1"
