@@ -29,6 +29,7 @@ vi:
     create:
       login_fail: Địa chỉ email hoặc mật khẩu không chính xác
       login_many: Đã có lỗi xảy ra. Vui lòng thử đóng và mở lại cửa sổ trình duyệt.
+      unactive: Tài khoản chưa được kích hoạt. Vùi lòng kiểm tra email để kích hoạt.
   static_pages:
     home:
       home_title: Trang chủ
@@ -72,6 +73,7 @@ vi:
     create:
       signup_success: Chào mừng tới ứng dụng Sample!
       login_many: Đã có lỗi xảy ra. Vui lòng thử đóng và mở lại cửa sổ trình duyệt.
+      activation: Vui lòng  kiểm trả mail để kích hoạt tài khoản
     show:
       error: Lỗi - Không tìm thấy người dùng
       home: Vui lòng qua lại trang chủ.
@@ -116,5 +118,20 @@ vi:
       previous: "‹ Trước"
       next: "Sau ›"
       truncate: "…"
+  account_activations:
+    edit:
+      active: Tài khoản được kích hoạt thành công !
+      unactive: Link kích hoạt không chính xác !!!
+      login_many: Đã có lỗi xảy ra khi đăng nhập. Vui lòng thử đóng và mở lại cửa sổ trình duyệt.
+  mailers:
+    user_mailer:
+      hi: "xin chào"
+      active_subject: "Xác thực tài khoản"
+  user_mailer:
+    account_activation:
+      name_app: "Ứng dụng mẫu"
+      hi: "Xin chào"
+      des: "Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để xác thực tài khoản:"
+      advance: "Xác thực"
   english: Tiếng Anh
   vietnam: Tiếng Việt

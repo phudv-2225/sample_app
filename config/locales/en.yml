@@ -29,6 +29,7 @@ en:
     create:
       login_fail: Invalid email/password combination
       login_many: An error has occurred. Please try closing and reopening the browser window.
+      unactive: Account not activated. Check your email for the activation link.
   static_pages:
     home:
       home_title: Home
@@ -72,6 +73,7 @@ en:
     create:
       signup_success: Welcome to the Sample App!
       login_many: An error has occurred. Please try closing and reopening the browser window.
+      activation: Please check your email to activate your account
     show:
       error: Error - Not found user
       home: Please return to the homepage.
@@ -116,5 +118,20 @@ en:
         previous: "‹ Previous"
         next: "Next ›"
         truncate: "…"
+  account_activations:
+    edit:
+      active: Account activated!
+      unactive: Invalid activation link
+      login_many: An error has occurred when login. Please try closing and reopening the browser window.
+  mailers:
+    user_mailer:
+      hi: "Hi"
+      active_subject: "Account activation"
+  user_mailer:
+    account_activation:
+      name_app: "Sample App"
+      hi: "Hi"
+      des: "Welcome to the Sample App! Click on the link below to activate your account:"
+      advance: "Activate"
   english: English
   vietnam: Vietnamese

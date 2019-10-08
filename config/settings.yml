@@ -26,3 +26,12 @@ paginate:
   theme: "twitter-bootstrap-3"
 session:
   check_box: "1"
+mailer:
+  host: "localhost:3000"
+  protocol: "http"
+  address: "smtp.gmail.com"
+  port: 587
+  domain: "gmail.com"
+  user_name: "phu.dv1998@gmail.com"
+  password: "mwvxitiyuxrhmibo"
+  authentication: "plain"
