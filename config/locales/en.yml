@@ -26,6 +26,7 @@ en:
       sign_up_content: New user?
       sign_up_title: Sign up now!
       check_box: Remember me on this computer
+      forgot_password: ( Forgot password )
     create:
       login_fail: Invalid email/password combination
       login_many: An error has occurred. Please try closing and reopening the browser window.
@@ -125,13 +126,38 @@ en:
       login_many: An error has occurred when login. Please try closing and reopening the browser window.
   mailers:
     user_mailer:
-      hi: "Hi"
-      active_subject: "Account activation"
+      hi: Hi
+      active_subject: Account activation
+      reset_subject: Password resets
   user_mailer:
     account_activation:
-      name_app: "Sample App"
-      hi: "Hi"
+      name_app: Sample App
+      hi: Hi
       des: "Welcome to the Sample App! Click on the link below to activate your account:"
-      advance: "Activate"
+      advance: Activate
+    password_reset:
+      title: Password reset
+      to_reset: "To reset your password click the link below:"
+      time_expire: This link will expire in two hours.
+      des: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
+  password_resets:
+    new:
+      title: Forgot password
+      email: Email
+      button_submit: Submit
+    create:
+      correct_email: Email sent with password reset instructions.
+      incorrect_email: Email address not found !!!
+    edit:
+      title: Reset password
+      password: Password
+      confirmation: Password confirmation
+      button_submit: Update password
+      expired: Password reset has expired
+      not_valid: Activation link incorrect
+    update:
+      empty_password: can't be empty
+      reset_success: Password has been reset.
+      error_update: Error updating password. Please try again.
   english: English
   vietnam: Vietnamese
