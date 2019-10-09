@@ -25,6 +25,7 @@ en:
       password: Password
       sign_up_content: New user?
       sign_up_title: Sign up now!
+      check_box: Remember me on this computer
     create:
       login_fail: Invalid email/password combination
       login_many: An error has occurred. Please try closing and reopening the browser window.
