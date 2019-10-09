@@ -1,29 +1,27 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
   before_create :create_activation_digest
+  has_many :microposts, dependent: :destroy
   before_save :downcase_email
-  scope :scope_order_name, -> {order(name: :desc)}
+  scope :scope_order_name, -> {order name: :desc}
   USER_PARAMS = %i(name email password password_confirmation).freeze
   PASSWORD_RESET_PARAMS = %i(password password_confirmation).freeze
 
-  validates :name,
-    presence: true,
+  validates :name, presence: true,
     length: {maximum: Settings.user.names.max_length}
-  validates :email,
-    presence: true,
+  validates :email, presence: true,
     length: {maximum: Settings.user.email.max_length},
     format: {with: Settings.user.email.regex_valid},
     uniqueness: {case_sensitive: false}
-  validates :password,
-    presence: true,
-    length: {minimum: Settings.user.password.min_length},
-    allow_nil: true
+  validates :password, presence: true,
+    length: {minimum: Settings.user.password.min_length}, allow_nil: true
 
   has_secure_password
 
   class << self
     def digest string
-      cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
+      cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST
+        : BCrypt::Engine.cost
       BCrypt::Password.create string, cost: cost
     end
 
@@ -67,6 +65,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.user.password_reset.expired.hours.ago
+  end
+
+  def feed
+    Micropost.where(user_id: id).scope_order_created_at
   end
 
   private
