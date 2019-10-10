@@ -68,10 +68,6 @@ en:
     new:
       sign_up_title: Sign Up
       sign_up_content: This will be a signup page for new users.
-      name: Name
-      email: Email
-      password: Password
-      confirmation: Password Confirmation
       button_submit: Create my account
     create:
       signup_success: Welcome to the Sample App!
@@ -79,9 +75,46 @@ en:
     show:
       error: Error - Not found user
       home: Please return to the homepage.
+    edit:
+      edit_title: Edit User
+      button_submit: Save changes
+      gavartar_edit: Change
+      not_login: Please log in
+      not_access: You do not have edit access
+      error: Error - Not found user
+    form:
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Password Confirmation
+    update:
+      update_profile: Successfully update user
+      not_access: You do not have edit access
+      error: Error - Not found user
+      not_login: Please log in
+    index:
+      index_title: All User
+      count_record: "Number of records on current page : "
+      not_login: Please log in
+    user:
+      delete: Delete
+      confirm: You are sure?
+    destroy:
+      delete_success: Successfully deleted user
+      delete_error: Error delete user
+      error: Error - Not found user
+      not_login: Please log in
+      not_delete: You do not have delete access
   shared:
     error_messages:
       head: The form contains
       error: error
+  view:
+    pagination:
+        first: "« First"
+        last: "Last »"
+        previous: "‹ Previous"
+        next: "Next ›"
+        truncate: "…"
   english: English
   vietnam: Vietnamese

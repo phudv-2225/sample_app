@@ -68,10 +68,6 @@ vi:
     new:
       sign_up_title: Đăng kí
       sign_up_content: Đây là trang đăng kí cho người dùng mới.
-      name: Tên đăng nhập
-      email: Địa chỉ Email
-      password: Mật khẩu
-      confirmation: Xác nhận mật khẩu
       button_submit: Tạo tài khoản
     create:
       signup_success: Chào mừng tới ứng dụng Sample!
@@ -79,9 +75,46 @@ vi:
     show:
       error: Lỗi - Không tìm thấy người dùng
       home: Vui lòng qua lại trang chủ.
+    edit:
+      edit_title: Sửa thông tin người dùng
+      button_submit: Lưu các thay đổi
+      gavartar_edit: Thay đổi
+      not_login: Vui lòng đăng nhập
+      not_access: Bạn không có quyền chỉnh sửa
+      error: Lỗi - Không tìm thấy người dùng
+    form:
+      name: Tên đăng nhập
+      email: Địa chỉ Email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+    update:
+      update_profile: Hồ sơ người dùng được cập nhât thành công
+      not_access: Bạn không có quyền chỉnh sửa
+      error: Lỗi - Không tìm thấy người dùng
+      not_login: Vui lòng đăng nhập
+    index:
+      index_title: Tất cả người dùng
+      count_record: "Số bản ghi trên trang hiện tại : "
+      not_login: Vui lòng đăng nhập
+    user:
+      delete: Xóa
+      confirm: Bạn có chắc chắn muốn xóa không?
+    destroy:
+      delete_success: Người dùng đã bị xóa thành công
+      delete_error: Lỗi xóa người dùng
+      error: Lỗi - Không tìm thấy người dùng
+      not_login: Vui lòng đăng nhập
+      not_delete: Bạn không có quyền xóa
   shared:
     error_messages:
       head: Biểu mẫu chứa
       error: lỗi
+  views:
+    pagination:
+      first: "« Đầu trang"
+      last: "Cuối trang »"
+      previous: "‹ Trước"
+      next: "Sau ›"
+      truncate: "…"
   english: Tiếng Anh
   vietnam: Tiếng Việt
