@@ -26,6 +26,8 @@ user:
 paginate:
   record_per_page: 5
   theme: "twitter-bootstrap-3"
+  following: 5
+  followers: 5
 session:
   check_box: "1"
 mailer:

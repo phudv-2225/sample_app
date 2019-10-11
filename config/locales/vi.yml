@@ -111,6 +111,13 @@ vi:
       error: Lỗi - Không tìm thấy người dùng
       not_login: Vui lòng đăng nhập
       not_delete: Bạn không có quyền xóa
+    follow:
+      button_submit: Theo dõi
+    unfollow:
+      button_submit: Bỏ theo dõi
+    show_follow:
+      microposts: Bài viết ngắn
+      my_profile: Hồ sơ cá nhân
   shared:
     error_messages:
       head: Biểu mẫu chứa
@@ -122,6 +129,9 @@ vi:
     user_info:
       my_profile: Hồ sơ cá nhân
       micropost: mẩu tin
+    stats:
+      following: Đang theo dõi
+      followers: Được theo dõi
   views:
     pagination:
       first: "« Đầu trang"
@@ -181,6 +191,12 @@ vi:
     destroy:
       delete_success: Micropost đã được xóa thành công !
       delete_error: Lỗi xóa micropost !!!
+  following:
+    index:
+      following: Đang theo dõi
+  followers:
+    index:
+      followers: Được theo dõi
   unit: 1024
   size_in_megabytes: 2
   max_size_image: Kích thước lớn nhất củ size là 2MB. Vui lòng chọn file có kích thước nhỏ hơn.
