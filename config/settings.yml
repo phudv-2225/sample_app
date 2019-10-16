@@ -21,6 +21,8 @@ user:
     size: 80
     url: "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
     edit: "http://gravatar.com/emails"
+  password_reset:
+    expired: 2
 paginate:
   record_per_page: 5
   theme: "twitter-bootstrap-3"

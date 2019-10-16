@@ -26,6 +26,7 @@ vi:
       sign_up_content: Bạn chưa có tài khoản?
       sign_up_title: Đăng kí ngay!
       check_box: Nhớ tôi trên máy tính này
+      forgot_password: ( Quên mật khẩu )
     create:
       login_fail: Địa chỉ email hoặc mật khẩu không chính xác
       login_many: Đã có lỗi xảy ra. Vui lòng thử đóng và mở lại cửa sổ trình duyệt.
@@ -127,11 +128,36 @@ vi:
     user_mailer:
       hi: "xin chào"
       active_subject: "Xác thực tài khoản"
+      reset_subject: Đặt lại mật khẩu
   user_mailer:
     account_activation:
-      name_app: "Ứng dụng mẫu"
-      hi: "Xin chào"
+      name_app: Ứng dụng mẫu
+      hi: Xin chào
       des: "Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để xác thực tài khoản:"
-      advance: "Xác thực"
+      advance: Xác thực
+    password_reset:
+      title: Đặt lại mật khẩu
+      to_reset: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      time_expire: Liên kết này sẽ hết hạn trong hai giờ.
+      des: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
+  password_resets:
+    new:
+      title: Quên mật khẩu
+      email: Địa chỉ email
+      button_submit: Gửi
+    create:
+      correct_email: Hướng dẫn đặt lại mật khẩu được gửi trong email tương ứng.
+      incorrect_email: Không tìm thấy địa chỉ email !!!
+    edit:
+      title: Đăt lại mật khẩu
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      button_submit: Cập nhật mật khẩu
+      expired: Đặt lại mật khẩu đã quá hạn
+      not_valid: Đường dẫn kích họat không chính xác
+    update:
+      empty_password: không thể rỗng
+      reset_success: Mật khẩu đã được đặt lại thành công.
+      error_update: Lỗi cập nhật mật khẩu. Vui lòng thử lại.
   english: Tiếng Anh
   vietnam: Tiếng Việt
