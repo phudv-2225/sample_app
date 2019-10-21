@@ -5,10 +5,14 @@ class UsersController < ApplicationController
   before_action :admin_user, only: %i(destroy)
 
   def index
-    @users = User.scope_order_name.page(params[:page]).per Settings.paginate.record_per_page
+    @users = User.scope_order_name.page(params[:page])
+      .per Settings.paginate.record_per_page
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.scope_order_created_at.page(params[:page])
+      .per Settings.micropost.show.feed_items
+  end
 
   def new
     @user = User.new
@@ -39,7 +43,8 @@ class UsersController < ApplicationController
 
   def destroy
     @user.destroy
-    @user.destroyed? ? flash[:success] = t(".delete_success") : flash[:danger] = t(".delete_error")
+    @user.destroyed? ? flash[:success] = t(".delete_success")
+      : flash[:danger] = t(".delete_error")
     redirect_to users_url
   end
 
@@ -55,13 +60,6 @@ class UsersController < ApplicationController
     return if @user
     flash[:danger]  = t ".error"
     redirect_to root_url
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".not_login"
-    redirect_to login_url
   end
 
   def correct_user

@@ -37,3 +37,13 @@ mailer:
   user_name: "phu.dv1998@gmail.com"
   password: "mwvxitiyuxrhmibo"
   authentication: "plain"
+micropost:
+  content:
+    max_length: 140
+  show:
+    feed_items: 5
+  gravatar:
+    size: 50
+  picture:
+    resize_limit: [200, 200]
+    accept: "image/jpeg,image/gif,image/png"

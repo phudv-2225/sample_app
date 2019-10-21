@@ -39,6 +39,8 @@ en:
         a1: Ruby on Rails Tutorial
         p2: sample application.
       sign_up: Sign up now !!!
+      micropost_feed: Micropost Feed
+      alt_image: Rails logo
     help:
       help_title: Help
       help_content:
@@ -78,6 +80,7 @@ en:
     show:
       error: Error - Not found user
       home: Please return to the homepage.
+      micropost: Micropost
     edit:
       edit_title: Edit User
       button_submit: Save changes
@@ -112,6 +115,13 @@ en:
     error_messages:
       head: The form contains
       error: error
+    micropost_form:
+      placeholder_content: Compose new micropost...
+      button_submit: Post
+      max_size_image: Maximum file size is 5MB. Please choose a smaller file.
+    user_info:
+      my_profile: View my profile
+      micropost: micropost
   view:
     pagination:
         first: "« First"
@@ -159,5 +169,20 @@ en:
       empty_password: can't be empty
       reset_success: Password has been reset.
       error_update: Error updating password. Please try again.
+  microposts:
+    micropost:
+      post: Post
+      ago: ago
+      button_submit: Delete
+      confirm: Are you sure?
+    create:
+      created_success: Micropost created !
+      created_error: Error create micropost !!!
+    destroy:
+      delete_success: Micropost deleted !
+      delete_error: Error delete micropost !!!
+  unit: 1024
+  size_in_megabytes: 2
+  max_size_image: Maximum file size is 2MB. Please choose a smaller file.
   english: English
   vietnam: Vietnamese

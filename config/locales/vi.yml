@@ -39,6 +39,8 @@ vi:
         a1: hướng dẫn học Ruby on Rails
         p2: " ."
       sign_up: Đăng kí ngay !!!
+      micropost_feed: Mẩu Tin
+      alt_image: Biểu tượng Rails
     help:
       help_title: Trợ giúp
       help_content:
@@ -78,6 +80,7 @@ vi:
     show:
       error: Lỗi - Không tìm thấy người dùng
       home: Vui lòng qua lại trang chủ.
+      micropost: Mẩu tin
     edit:
       edit_title: Sửa thông tin người dùng
       button_submit: Lưu các thay đổi
@@ -112,6 +115,13 @@ vi:
     error_messages:
       head: Biểu mẫu chứa
       error: lỗi
+    micropost_form:
+      placeholder_content: Soạn bài viết mới ...
+      button_submit: Đăng
+      max_size_image: Kích thước lớn nhất củ size là 5MB. Vui lòng chọn file có kích thước nhỏ hơn.
+    user_info:
+      my_profile: Hồ sơ cá nhân
+      micropost: mẩu tin
   views:
     pagination:
       first: "« Đầu trang"
@@ -159,5 +169,20 @@ vi:
       empty_password: không thể rỗng
       reset_success: Mật khẩu đã được đặt lại thành công.
       error_update: Lỗi cập nhật mật khẩu. Vui lòng thử lại.
+  microposts:
+    micropost:
+      post: Đăng
+      ago: trước
+      button_submit: Xóa
+      confirm: Bạn có chắc chắn muốn xóa không?
+    create:
+      created_success: Micropost được tạo thành công !
+      created_error: Lỗi tạo micropost !!!
+    destroy:
+      delete_success: Micropost đã được xóa thành công !
+      delete_error: Lỗi xóa micropost !!!
+  unit: 1024
+  size_in_megabytes: 2
+  max_size_image: Kích thước lớn nhất củ size là 2MB. Vui lòng chọn file có kích thước nhỏ hơn.
   english: Tiếng Anh
   vietnam: Tiếng Việt
