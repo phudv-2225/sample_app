@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  before_action :find_user, only: %i(show edit update destroy)
-  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :find_user, except: %i(index new create)
+  before_action :logged_in_user, only: %i(show new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: %i(destroy)
 
@@ -48,11 +48,7 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
-  private
-
-  def user_params
-    params.require(:user).permit User::USER_PARAMS
-  end
+  protected
 
   def find_user
     @user = User.find_by id: params[:id]
@@ -61,6 +57,13 @@ class UsersController < ApplicationController
     flash[:danger]  = t ".error"
     redirect_to root_url
   end
+
+  private
+
+  def user_params
+    params.require(:user).permit User::USER_PARAMS
+  end
+
 
   def correct_user
     return if current_user? @user

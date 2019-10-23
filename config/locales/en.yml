@@ -111,6 +111,13 @@ en:
       error: Error - Not found user
       not_login: Please log in
       not_delete: You do not have delete access
+    follow:
+      button_submit: Follow
+    unfollow:
+      button_submit: UnFollow
+    show_follow:
+      microposts: Microposts
+      my_profile: View my profiles
   shared:
     error_messages:
       head: The form contains
@@ -122,6 +129,9 @@ en:
     user_info:
       my_profile: View my profile
       micropost: micropost
+    stats:
+      following: Following
+      followers: Followers
   view:
     pagination:
         first: "« First"
@@ -181,6 +191,12 @@ en:
     destroy:
       delete_success: Micropost deleted !
       delete_error: Error delete micropost !!!
+  following:
+    index:
+      following: Following
+  followers:
+    index:
+      followers: Followers
   unit: 1024
   size_in_megabytes: 2
   max_size_image: Maximum file size is 2MB. Please choose a smaller file.
